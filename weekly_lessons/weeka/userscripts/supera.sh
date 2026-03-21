@@ -3,8 +3,10 @@ set -euo pipefail
 
 #Chewbacca: The node awakens. And it will speak in HTML, plain text, and JSON.
 
-apt-get update -y
-apt-get install -y nginx curl jq
+#Thanks for Aaron!
+sleep 5
+apt update -y
+apt install -y nginx curl jq
 
 METADATA="http://metadata.google.internal/computeMetadata/v1"
 HDR="Metadata-Flavor: Google"
