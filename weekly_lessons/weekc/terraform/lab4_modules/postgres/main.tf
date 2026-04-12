@@ -55,4 +55,12 @@ resource "google_sql_user" "han" {
   password = var.han_password
 }
 
+#resource "google_project_service" "sqladmin" {
+#  service = "sqladmin.googleapis.com"
+#}
+
+
+
+
+
 
